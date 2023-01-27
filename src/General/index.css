@@ -1,0 +1,62 @@
+.input-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.input-element {
+    border-color: cornflowerblue;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+}
+
+.label-input {
+    background-color: white;
+    color: brown;
+    font-size: 14px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+}
+.form-container {
+    margin: 20px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.save-btn {
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto";
+    border: 0px;
+    padding: 8px;
+    border-radius: 7px;
+    width: 139px;
+    margin: 8px;
+}
+.cancel-btn{
+    width: 130px;
+    font-size: 20px;
+    color: cadetblue;
+    background-color: white;
+    border: 2px solid blanchedalmond;
+    padding: 8px;
+    border-radius: 7px;
+}
+.list-inputs{
+    list-style: none;
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.error-msg {
+    color: chartreuse;
+    font-size: 15px;
+}
